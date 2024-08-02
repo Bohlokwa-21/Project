@@ -1,0 +1,83 @@
+
+body
+{
+	margin:0;
+	font-family:'Heebo',sans-serif;
+	background-image:url(iE.jpeg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+
+}
+.container
+{
+	width:100%;
+	margin: auto;
+	height: 100%;
+}
+*
+{
+	text-decoration:none;
+}
+.header
+{
+	background:#11141a;
+	padding-right:15px;
+	padding-left:15px;
+	
+	
+	
+}
+.top-bar
+{
+	height:80px;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	position;fixed;
+}
+.logo a
+{
+	font-size:45px;
+	font-weight:600;
+	color:white;
+	font-family:'Brush script ';
+}
+li
+{
+	list-style:none;
+	display:inline-block;
+}
+li a
+{
+	color:white;
+	font-size:18px;
+	font-weight: bold;
+	margin-right:25px;
+}
+.header a
+{
+	transition: all 0.3s ease 0s;
+}
+.header a:hover
+{
+	color:#0088a9;
+}
+@media only screen and(main-width:576px){
+.container
+{
+	width:540px;
+}
+}
+@media only screen and(main-width:1200px){	
+.container
+{
+	width:1120px;
+}	
+}
+.content
+{
+	
+	height:auto;
+}
